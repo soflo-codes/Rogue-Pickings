@@ -1,0 +1,156 @@
+/***** BASE STYLES ******/
+
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Wisdom Script Regular'), url('Wisdom Script AJ.woff') format('woff');
+    }
+
+body {
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/***** GRID *****/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    margin: 0;
+    padding: 38px 0;
+}
+header h1 span {
+    color: #77a466;
+}
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a {
+	text-decoration: none;
+	color:#77a466;
+}
+#beans {
+    color: #77a466;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+/****** WELCOME ******/
+
+#welcome h2 {
+  height: auto;
+  float: left;
+  text-align: left;
+  padding: 5px 0;  
+  color: #77a466;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;   
+}
+#welcome p {
+    padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    float: left;
+}
+/****** SERVICE INFO ******/
+
+h2, 
+h3, 
+h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 14px;
+}
+h4 {
+    font-size: 12px;
+}
+p {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 30px;
+}
+.services {
+    margin: 0, auto;
+    display: flex;
+    clear: both;
+}
+.section-one,
+.section-two,
+.section-three {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+.section-one h3 {
+    padding: 10px 0;
+}
+.section-two {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc; 
+}
+.section-two h3,
+.section-three h3 {
+    padding: 10px 30px;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    padding: 10px 0;
+    color: #77a466;
+}
+.reviews {
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+}
+.address {
+    font-size: 16px;
+    line-height: 24px;
+}
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
